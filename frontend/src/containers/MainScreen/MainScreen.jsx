@@ -144,6 +144,18 @@ export class MainScreenComponent extends React.Component {
         });
 
         /*
+        socket.on('changeVideo', (videoURL)=>{
+            this.setState({
+                video: [
+                    ...this.state.video,
+                    videoURL
+                ]
+            });
+            this.props.setVideo(videoURL);
+        });
+        */
+
+        /*
         // send leave message when user leaves the page
         window.addEventListener('beforeunload', (ev) => {
             ev.preventDefault();

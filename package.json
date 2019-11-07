@@ -9,7 +9,7 @@
     "install": "npm run backend-install && npm run frontend-install",
     "frontend": "cd frontend && npm start",
     "backend": "cd backend && npm start",
-    "start": "concurrently --success --kill-others \"npm run backend\" \"npm run frontend\""
+    "start": "concurrently \"npm run backend\" \"npm run frontend\""
   },
   "author": "Nazmican Çalık",
   "license": "ISC",
