@@ -1,0 +1,45 @@
+// KOEBA color definitions
+$KOEBAU_BLUE: #002355;
+$KOEBAU_BLUEMID: #003075;
+$KOEBAU_BLUEBRIGHTER: #0182bf;
+$KOEBAU_BLACK: #0a0f0a;
+
+$BACKGROUND: #F7B32B;
+
+// Grey
+$DARKGREY: #444444;
+$MID_GREY: #7C7C7C;
+$GREY: #9b9894;
+$LIGHT_GREY: #D4D4D4;
+$VERY_LIGHT_GREY: #EEEEEE;
+$ULTRA_LIGHT_GREY: #F4F4F4;
+
+// signals
+$RED: #f02d32;
+$ORANGE: #FC9C35;
+$GREEN: #33CC66;
+
+// Fonts
+$BLACK_87: #212121;
+$BLACK_54: #757575;
+$BlACK_26: #BDBDBD;
+
+// other
+$WHITE: #FFFFFF;
+
+// Classes
+.color-red {
+  background-color: $RED !important;
+}
+
+.color-orange {
+  background-color: $ORANGE !important;
+}
+
+.color-green {
+  background-color: $GREEN !important;
+}
+
+.color-blue {
+  background-color: $KOEBAU_BLUE !important;
+}

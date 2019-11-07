@@ -1,0 +1,19 @@
+{
+  "name": "campfire-v2",
+  "version": "1.0.0",
+  "description": "An application that lets you watch youtube videos with your friends in sync.",
+  "main": "index.js",
+  "scripts": {
+    "backend-install": "cd backend && npm install",
+    "frontend-install": "cd frontend && npm install",
+    "install": "npm run backend-install && npm run frontend-install",
+    "frontend": "cd frontend && npm start",
+    "backend": "cd backend && npm start",
+    "start": "concurrently --success --kill-others \"npm run backend\" \"npm run frontend\""
+  },
+  "author": "Nazmican Çalık",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^5.0.0"
+  }
+}

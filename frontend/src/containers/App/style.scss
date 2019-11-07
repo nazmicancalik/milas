@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
+html {
+    // background-color: $BACKGROUND;
+    $background-img: image-url('background.jpg', false, false);
+    // background-image: url('https://images.unsplash.com/photo-1472201248592-1241c92256ff?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2052&q=80');
+    background: $background-img;
+    font-family: 'Quicksand', sans-serif;
+}

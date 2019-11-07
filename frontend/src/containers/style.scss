@@ -1,0 +1,21 @@
+@import './App/style';
+@import './JoinOrCreateRoomScreen/style';
+@import './MainScreen/style';
+
+
+// patch the complete element tree for simpler styling
+*, *:before, *:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  // iOS quirks
+  -webkit-tap-highlight-color: transparent;
+  -webkit-overflow-scrolling: touch;
+}
+
+body {
+  user-select: none;
+  -webkit-user-select: none; // disable selection copy/paste
+  -webkit-user-drag: none; // disable dragging images
+  -webkit-touch-callout: none; // disable save image on long press
+}
